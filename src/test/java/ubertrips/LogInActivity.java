@@ -21,7 +21,7 @@ public class LogInActivity {
             //capabilities.setCapability("platormName", "Android");
             //capabilities.setCapability("platformVersion", "5.0.2(Lollipop)");
             capabilities.setCapability("deviceName", "Xiaomi");
-            capabilities.setCapability("app", "C:/APKs/CodesForUber_com.freerides.ubertrips_1.2.apk");
+            capabilities.setCapability("app", "C:/Users/PC-1/Dropbox/apps/CodesForUber_com.freerides.ubertrips_1.3.apk"); // work PC
 
             driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
